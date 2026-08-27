@@ -1,0 +1,44 @@
+body {
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin:0;
+}
+.card{
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    width: 350px;
+    text-align: center;
+}
+.title{
+    color: rgb(6, 6, 86);
+    font-size: 24px;
+}
+.text{
+    color:rgb(84, 185, 225);
+    margin-top:0;
+}
+.card ul {
+    padding: 0;
+    text-align: left;
+}
+.card li {
+    background-color: #eef2f7;
+    margin: 8px 0;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+.profile{
+display: inline-block;
+margin-top:15px;
+padding: 10px 20px;
+background-color: #2ecc71; /* Tugmaga yashil rang beradi */
+    color: white;              /* Tugma ichidagi matnni oq qiladi */
+    text-decoration: none;     /* Havola ostidagi chiziqni olib tashlaydi */
+    border-radius: 6px;        /* Tugma burchaklarini yumaloqlaydi */
+    font-weight: bold;         /* Tugma matnini qalin qiladi */ 
+}
